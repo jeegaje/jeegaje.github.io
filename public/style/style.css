@@ -1,0 +1,195 @@
+body{
+  margin: 0;
+  font-family: 'Eczar', serif;
+}
+/* ------------ header */
+header {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a{
+  font-size: 72px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.menu{
+  margin: auto 0;
+}
+
+.menu ul{
+  padding: 0
+}
+
+.menu li{
+  list-style: none;
+  display: inline;
+  padding-left: 30px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.text-header{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.text-header h1{
+  font-size: 54px;
+  line-height: 60px;
+}
+
+.kiri{
+  width: 430px;
+
+}
+
+/* -----------about */
+
+.about {
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.about h2{
+  text-align: center;
+  margin-top: 0;
+  font-size: 38px;
+}
+
+.about-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.article {
+  width: 20vw;
+}
+
+.article h3{
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.article h4{
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.article img{
+  height: 190px;
+  object-fit: cover;
+}
+
+.article p{
+  margin: 0;
+}
+
+.products{
+  display: flex;
+  gap: 8vw;
+}
+
+.products-image img {
+  width: 180px;
+  height: 320px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.products-text h3{
+  font-size: 32px;
+}
+
+.products-text{
+  width: 30%;
+}
+
+.products-text a{
+  text-decoration: underline;
+  color: black;
+  font-weight: 500;
+}
+
+.best-sale h3{
+  font-size: 32px;
+  text-align: center;
+}
+
+.best-sale{
+  padding-bottom: 100px;
+}
+
+.item-img{
+  display: flex;
+  justify-content: center;
+}
+
+.item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.item {
+    margin: 0 5vw;
+    text-align: center;
+}
+
+.item a{
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+  font-weight: 500;
+}
+.contact-right{
+  text-align: right;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.line{
+  height: 2px;
+  background: black;
+}
+
+footer .logo{
+  color: green;
+}
+
+.bottom a{
+  color: black;
+}
